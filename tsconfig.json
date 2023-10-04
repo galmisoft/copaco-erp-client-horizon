@@ -47,7 +47,9 @@
     "downlevelIteration": true,
     "baseUrl": "src",
     "paths": {
-      "@assets/*": ["./src/assetsassets/*"]
+      "@assets/*": ["./src/assetsassets/*"],
+      "@features/*": ["./features/*"],
+      "@/*": ["./*"]
     },
   },
   "include": [
